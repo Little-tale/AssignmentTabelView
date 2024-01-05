@@ -15,6 +15,7 @@
 		7B3366AE2B48088C00B93F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3366AC2B48088C00B93F90 /* LaunchScreen.storyboard */; };
 		7B3366B62B48107900B93F90 /* SettingScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */; };
 		7B3366B82B4810C700B93F90 /* SettingScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */; };
+		7B3366BA2B482E4D00B93F90 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B92B482E4D00B93F90 /* ShoppingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7B3366AF2B48088C00B93F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenTableViewController.swift; sourceTree = "<group>"; };
 		7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenTableViewCell.swift; sourceTree = "<group>"; };
+		7B3366B92B482E4D00B93F90 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				7B3366AF2B48088C00B93F90 /* Info.plist */,
 				7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */,
 				7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */,
+				7B3366B92B482E4D00B93F90 /* ShoppingTableViewController.swift */,
 			);
 			path = AssignmentTabelView;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3366A62B48088B00B93F90 /* ViewController.swift in Sources */,
+				7B3366BA2B482E4D00B93F90 /* ShoppingTableViewController.swift in Sources */,
 				7B3366A22B48088B00B93F90 /* AppDelegate.swift in Sources */,
 				7B3366B62B48107900B93F90 /* SettingScreenTableViewController.swift in Sources */,
 				7B3366B82B4810C700B93F90 /* SettingScreenTableViewCell.swift in Sources */,

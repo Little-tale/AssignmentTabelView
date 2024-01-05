@@ -8,6 +8,10 @@
 import UIKit
 
 class SettingScreenTableViewController: UITableViewController {
+    // MARK: - 필드 (아웃렛)
+    @IBOutlet var settingUILabel: UILabel!
+    
+    
     
 // MARK: - 필드 구역
     
@@ -39,6 +43,8 @@ class SettingScreenTableViewController: UITableViewController {
         // 결국엔 섹션 -> 셀 구조이기 때문
         
         cellAllList = [settingAllTextList, settingPersonalTextList, settingEtcTextList]
+        
+        designSettingUILabel(settingUILabel)
         
         
     }
@@ -106,7 +112,13 @@ class SettingScreenTableViewController: UITableViewController {
         print("셀 높이 함수 ")
         return 32
     }
-
+    
+    // MARK: - 최상단 부분 디자인
+    func designSettingUILabel(_ uilb:UILabel) {
+        uilb.text = "설정"
+        uilb.textAlignment = .center
+    }
+    
     
     
 }
