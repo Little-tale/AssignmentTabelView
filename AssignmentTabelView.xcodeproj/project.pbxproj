@@ -13,6 +13,8 @@
 		7B3366A92B48088B00B93F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3366A72B48088B00B93F90 /* Main.storyboard */; };
 		7B3366AB2B48088C00B93F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3366AA2B48088C00B93F90 /* Assets.xcassets */; };
 		7B3366AE2B48088C00B93F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3366AC2B48088C00B93F90 /* LaunchScreen.storyboard */; };
+		7B3366B62B48107900B93F90 /* SettingScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */; };
+		7B3366B82B4810C700B93F90 /* SettingScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7B3366AA2B48088C00B93F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B3366AD2B48088C00B93F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3366AF2B48088C00B93F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenTableViewController.swift; sourceTree = "<group>"; };
+		7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7B3366AA2B48088C00B93F90 /* Assets.xcassets */,
 				7B3366AC2B48088C00B93F90 /* LaunchScreen.storyboard */,
 				7B3366AF2B48088C00B93F90 /* Info.plist */,
+				7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */,
+				7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */,
 			);
 			path = AssignmentTabelView;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				7B3366A62B48088B00B93F90 /* ViewController.swift in Sources */,
 				7B3366A22B48088B00B93F90 /* AppDelegate.swift in Sources */,
+				7B3366B62B48107900B93F90 /* SettingScreenTableViewController.swift in Sources */,
+				7B3366B82B4810C700B93F90 /* SettingScreenTableViewCell.swift in Sources */,
 				7B3366A42B48088B00B93F90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,9 +315,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SilverGun.AssignmentTabelView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +346,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SilverGun.AssignmentTabelView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
