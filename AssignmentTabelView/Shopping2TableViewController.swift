@@ -27,6 +27,7 @@ class Shopping2TableViewController: UITableViewController {
     let checkBoxImages = ["checkmark.square.fill","checkmark.square"]
     let starImage = ["star.fill","star"]
     
+    var boolDic : [String: Bool] = ["추가버튼을 눌러서" : false, "목록을 만들어보세요" : false, "봄에 아이패드 에어 시리즈" : false, "M3 탑재 소문이...!" : false]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,11 +80,18 @@ class Shopping2TableViewController: UITableViewController {
         textField.placeholder = "무엇을 구매하실 건가요?"
         // textField.backgroundColor = .systemGray6
         textField.borderStyle = .none
+        textField.font = .systemFont(ofSize: 16)
         textField.layer.cornerRadius = 8
         
     }
     
-   
+    
+    func checkBoxSelect(bool : Bool) -> String{
+        switch bool {
+        case true : return checkBoxImages[0]
+        case false : return checkBoxImages[1]
+        }
+    }
     
     
     
@@ -94,7 +102,7 @@ class Shopping2TableViewController: UITableViewController {
     
     // MARK: - 셀이 몇개인가?
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return list.count
     }
     
     // MARK: - 셀 높이가 몇인가?
@@ -107,7 +115,61 @@ class Shopping2TableViewController: UITableViewController {
         
         // cell.listLabel.text = list[indexPath]
         cell.listLabel.text = list[indexPath.row]
+        cell.cheakBoxImageView.image = UIImage(systemName: checkBoxSelect(bool: false))
+        cell.listLabel.font = .boldSystemFont(ofSize: 12)
+        
+        // 선택시 나오는 배경 지우고 싶다
+        cell.selectionStyle = .none
+        
+        // cell.backgroundColor = .clear
+        // cell.selectedBackgroundView?.backgroundColor = .clear
+        // cell.selectionStyle
+        
+        
+        //cell.selectedBackgroundView?.layer.backgroundColor = UIColor.red.cgColor
+        
+        // 설마 isUser 혹은 클립투 바운드 안주어서?
+        // cell.isUserInteractionEnabled = true
+        //cell.clipsToBounds = true
+        //cell.backgroundView?.tintColor = .blue
+        // cell.backgroundColor = .clear
+        // 클립투 바운드인가
+        
+//        let selectedView = cell.selectedBackgroundView
+//        
+//        selectedView?.isUserInteractionEnabled = true
+//        selectedView?.backgroundColor = .blue
+        
+        // cell.selectedBackgroundView?.layer.borderColor = UIColor.red.cgColor
+        
+        
+        
+        print("셀 디자인 동작 합니다.!~")
         return cell
     }
     
+    @IBAction func addButton(_ sender: UIButton) {
+        if textField.text != "" {
+            list.append(textField.text!)
+            boolDic[textField.text!] = false
+        }else {
+        
+        }
+        
+        print(boolDic)
+        tableView.reloadData()
+    }
+    @IBAction func textFieldKeyBoard(_ sender: UITextField) {
+        view.endEditing(true)
+    }
+    @IBAction func viewKeyBoardExit(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
+    
+    
+    @IBAction func selectCheckBox(_ sender: UITapGestureRecognizer) {
+
+        
+    }
 }
