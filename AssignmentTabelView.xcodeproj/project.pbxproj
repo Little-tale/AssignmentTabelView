@@ -16,6 +16,7 @@
 		7B3366B62B48107900B93F90 /* SettingScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */; };
 		7B3366B82B4810C700B93F90 /* SettingScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */; };
 		7B3366BA2B482E4D00B93F90 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366B92B482E4D00B93F90 /* ShoppingTableViewController.swift */; };
+		7B3366BC2B4830E600B93F90 /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366BB2B4830E600B93F90 /* ShoppingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenTableViewController.swift; sourceTree = "<group>"; };
 		7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenTableViewCell.swift; sourceTree = "<group>"; };
 		7B3366B92B482E4D00B93F90 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
+		7B3366BB2B4830E600B93F90 /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				7B3366B52B48107900B93F90 /* SettingScreenTableViewController.swift */,
 				7B3366B72B4810C600B93F90 /* SettingScreenTableViewCell.swift */,
 				7B3366B92B482E4D00B93F90 /* ShoppingTableViewController.swift */,
+				7B3366BB2B4830E600B93F90 /* ShoppingTableViewCell.swift */,
 			);
 			path = AssignmentTabelView;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				7B3366A22B48088B00B93F90 /* AppDelegate.swift in Sources */,
 				7B3366B62B48107900B93F90 /* SettingScreenTableViewController.swift in Sources */,
 				7B3366B82B4810C700B93F90 /* SettingScreenTableViewCell.swift in Sources */,
+				7B3366BC2B4830E600B93F90 /* ShoppingTableViewCell.swift in Sources */,
 				7B3366A42B48088B00B93F90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

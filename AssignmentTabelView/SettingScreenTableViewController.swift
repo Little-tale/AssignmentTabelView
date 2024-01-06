@@ -80,7 +80,7 @@ class SettingScreenTableViewController: UITableViewController {
         return cellAllList[section].count
     }
 
-    //  MARK: - MARK셀 디자인 등
+    //  MARK: - 셀 디자인 등
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SettingScreenTableViewCell", for: indexPath)
         
