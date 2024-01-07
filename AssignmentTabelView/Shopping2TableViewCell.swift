@@ -61,4 +61,19 @@ class Shopping2TableViewCell: UITableViewCell {
         // temp.reverse()
         // listLabel.text = temp.popLast()
     }
+    // 하지만 여기에 제스처를 추가 하려 하였음에도
+    // 제스처가 추가가 되지 않음
+    
+    // 흠....
+//    @IBAction func Test(_ sender: UITapGestureRecognizer) {
+//    }
+////    
+//    
+//    func TestTap() {
+//        let test = UIGestureRecognizer(target: <#T##Any?#>, action: <#T##Selector?#>)
+//    }
+    
+    
+    
+    
 }

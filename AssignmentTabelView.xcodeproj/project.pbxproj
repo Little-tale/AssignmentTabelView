@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0E2A9E2B4ADEE900E6C038 /* PlacticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E2A9D2B4ADEE900E6C038 /* PlacticsTableViewController.swift */; };
+		7B0E2AA02B4AE01E00E6C038 /* PlacticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E2A9F2B4AE01E00E6C038 /* PlacticeTableViewCell.swift */; };
 		7B3366A22B48088B00B93F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366A12B48088B00B93F90 /* AppDelegate.swift */; };
 		7B3366A42B48088B00B93F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366A32B48088B00B93F90 /* SceneDelegate.swift */; };
 		7B3366A62B48088B00B93F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3366A52B48088B00B93F90 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B0E2A9D2B4ADEE900E6C038 /* PlacticsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacticsTableViewController.swift; sourceTree = "<group>"; };
+		7B0E2A9F2B4AE01E00E6C038 /* PlacticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacticeTableViewCell.swift; sourceTree = "<group>"; };
 		7B33669E2B48088B00B93F90 /* AssignmentTabelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentTabelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3366A12B48088B00B93F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B3366A32B48088B00B93F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				7B3366BF2B49692D00B93F90 /* Shopping2TableViewCell.swift */,
 				7B3366C52B49955D00B93F90 /* ShopTableViewController.swift */,
 				7B3366C72B49959200B93F90 /* ShopTableViewCell.swift */,
+				7B0E2A9D2B4ADEE900E6C038 /* PlacticsTableViewController.swift */,
+				7B0E2A9F2B4AE01E00E6C038 /* PlacticeTableViewCell.swift */,
 			);
 			path = AssignmentTabelView;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			files = (
 				7B3366A62B48088B00B93F90 /* ViewController.swift in Sources */,
 				7B3366BA2B482E4D00B93F90 /* ShoppingTableViewController.swift in Sources */,
+				7B0E2A9E2B4ADEE900E6C038 /* PlacticsTableViewController.swift in Sources */,
 				7B3366A22B48088B00B93F90 /* AppDelegate.swift in Sources */,
 				7B3366C82B49959200B93F90 /* ShopTableViewCell.swift in Sources */,
 				7B3366B62B48107900B93F90 /* SettingScreenTableViewController.swift in Sources */,
@@ -172,6 +179,7 @@
 				7B3366BC2B4830E600B93F90 /* ShoppingTableViewCell.swift in Sources */,
 				7B3366C62B49955D00B93F90 /* ShopTableViewController.swift in Sources */,
 				7B3366BE2B4954A700B93F90 /* Shopping2TableViewController.swift in Sources */,
+				7B0E2AA02B4AE01E00E6C038 /* PlacticeTableViewCell.swift in Sources */,
 				7B3366A42B48088B00B93F90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

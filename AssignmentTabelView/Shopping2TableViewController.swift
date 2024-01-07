@@ -118,6 +118,9 @@ class Shopping2TableViewController: UITableViewController {
         cell.cheakBoxImageView.image = UIImage(systemName: checkBoxSelect(bool: false))
         cell.listLabel.font = .boldSystemFont(ofSize: 12)
         
+        cell.cheakBoxImageView.isUserInteractionEnabled = true
+        
+        
         // 선택시 나오는 배경 지우고 싶다
         cell.selectionStyle = .none
         
@@ -135,10 +138,10 @@ class Shopping2TableViewController: UITableViewController {
         // cell.backgroundColor = .clear
         // 클립투 바운드인가
         
-//        let selectedView = cell.selectedBackgroundView
-//        
-//        selectedView?.isUserInteractionEnabled = true
-//        selectedView?.backgroundColor = .blue
+        //        let selectedView = cell.selectedBackgroundView
+        //
+        //        selectedView?.isUserInteractionEnabled = true
+        //        selectedView?.backgroundColor = .blue
         
         // cell.selectedBackgroundView?.layer.borderColor = UIColor.red.cgColor
         
@@ -152,9 +155,7 @@ class Shopping2TableViewController: UITableViewController {
         if textField.text != "" {
             list.append(textField.text!)
             boolDic[textField.text!] = false
-        }else {
-        
-        }
+        }else {}
         
         print(boolDic)
         tableView.reloadData()
@@ -167,9 +168,23 @@ class Shopping2TableViewController: UITableViewController {
     }
     
     
+    // 동작 되지 않음
+    // 아마도 여기서 하는 것이 아님을 추측
+    //    @IBAction func selectCheckBox(_ sender: UITapGestureRecognizer) {
+    //        print(sender)
+    //
+    //    }
+    //}
+//    @IBAction func TestCheckImageTap(_ sender: UITapGestureRecognizer) {
+//        print("클릭 인식 되었습니다..")
+//        print(sender)
+//    }
     
-    @IBAction func selectCheckBox(_ sender: UITapGestureRecognizer) {
-
-        
-    }
+//    @IBAction func Test(_ sender: UITapGestureRecognizer) {
+//        print("터치 인식 됨")
+//        // 이런 isUser~~~ = true 가 문제였음
+//
+//    }
+    
+    // 도무지 감이 오지 않는다.
 }
