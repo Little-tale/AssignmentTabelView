@@ -76,4 +76,8 @@ class Shopping2TableViewCell: UITableViewCell {
     
     
     
+    // 왜 제스처 연결이 되지 않는가.
+    
+    
+    
 }

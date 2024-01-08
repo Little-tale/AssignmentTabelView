@@ -8,7 +8,11 @@
 import UIKit
 
 class ShoppingListTableViewCell: UITableViewCell {
-
+    @IBOutlet var checkBoxButton: UIButton!
+    @IBOutlet var listTextLabel: UILabel!
+    @IBOutlet var starButton: UIButton!
+    @IBOutlet var cellBackView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
